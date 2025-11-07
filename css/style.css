@@ -1,0 +1,72 @@
+*{
+   margin: 0;
+   padding: 0;
+   zoom: 105%;
+}
+
+body{
+   font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 15px;
+    text-align: center;
+    color: #FF5C5C;
+}
+
+nav{
+    text-align: center;
+    background: #FFF8F8;
+    padding: 20px;
+    
+}
+
+nav a {
+    color: black;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: #FF5C5C;
+}
+
+#home{
+    background: #FFF8F8;
+    width: 100%;
+}
+
+#home h2, h3{
+    text-align: center ;
+}
+
+.photo-profile{
+    height: auto;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#about-me{
+    background: white;
+    padding: 20px 0;
+}
+
+#projects{
+    background: #FFF8F8;
+    text-align: center;
+}
+
+
+#hire{
+    background: white;
+    padding: 50px;
+    text-align: center;
+}
+
+#projects{
+    padding: 40px;
+}
+
+footer{
+    background: #fcf5f5;
+    padding: 20px;
+}
