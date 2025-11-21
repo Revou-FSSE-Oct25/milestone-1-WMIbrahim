@@ -1,4 +1,4 @@
-*{
+/* *{
    margin: 0;
    padding: 0;
    zoom: 105%;
@@ -57,40 +57,10 @@ h2, h3{
 #about-me p{
     text-align: center;
     margin-bottom: 10px ;
-}
+}*/
 
-.table-info{
-    margin: 0 auto;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-td{
-    border: 1px solid black;
-    padding: 2px;
-}
-
-#projects{
-    background: #FFF8F8;
-    text-align: center;
-    padding: 20px 0;
-}
-
-#projects h1{
-    margin-bottom: 5px;
-}
-
-#li-project{
-    border: 1px solid;
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    margin: 0 auto;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*{
+    font-family: "Montserrat", sans-serif;
 }
 
 form{
@@ -109,32 +79,11 @@ button{
 button:hover{
     background: #fcf5f5;
     color: black;
+    color: #FF5C5C;
 }
 
-#hire{
+.hire{
     background: white;
     padding: 50px;
     text-align: center;
-}
-
-footer{
-    background: #fcf5f5;
-    padding: 20px;
-}
-
-footer p{
-    text-align: center;
-    font-size: 12px;
-}
-
-.icon img{
-    height: auto;
-    width: 40px;
-    margin: 10px auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon img:hover{
-    width: 45px;
 }
