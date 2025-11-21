@@ -1,24 +1,58 @@
-# **Assignment of Module 1: Web Development Essentials**
+# Personal Portfolio Website
 
-## Overview
-This website was created to showcase my journey as a student at Revou. this website will contain all information about Project that i have completed and to be completed in the future along with the learning process that i have gone through. also i will update any update my skillset any the interface of this website.
+A simple and responsive personal portfolio website built using **HTML** and **Tailwind CSS**.  
+This website showcases personal information, projects, social media links, and a "Hire Me" contact form.  
+It is created as part of learning web development and exploring modern responsive design practices.
 
-##Feature
-The feature in theis project are as follows:
-- Introduction about myself.
-- showcase Project that i have completed and on-going  projects.
-- Blog about little bit about myself that i will improved. especially skill and interest.
-- contact section: this is the form that you can use to contact or hire me.
+For Quick view you can [Click Here](https://revou-fsse-oct25.github.io/milestone-1-WMIbrahim/)
 
-## Technologies
-This website is build using the following technologies:
-- HTML5: to structure the backbone of the website. i've used semantic elements to improve accessibility and SEO.
-- CSS: to make the website more alive.
+---
 
-## how to access 
-1. I will drop the link below for quick visit
-https://revou-fsse-oct25.github.io/milestone-1-WMIbrahim/
+## 🚀 Features
 
-2. you can use my link repository if you want to see the code at "https://github.com/Revou-FSSE-Oct25/milestone-1-WMIbrahim", also you can access the pages at **GitHub Pages settings** via **Settings** then **Pages**
+- **Responsive Navigation Bar** using Tailwind CSS  
+- **Hero Section** with profile photo and introduction  
+- **About Me Section** with biography  
+- **Projects Section** (Coming Soon placeholders)  
+- **Hire Me Form** with basic input validation  
+- Clean and modern UI design  
+- Fully responsive layout  
 
-![Screenshot for image information](/images/screenshot.png)
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **Tailwind CSS (via CDN)**
+- **Google Fonts (Montserrat)**
+
+---
+
+## 📁 Folder Structure
+```bash
+project/
+│── index.html
+│── css/
+│ └── style.css
+│── images/
+│ ├── photo-profile.jpg
+│ ├── instagram.png
+│ └── linkedln.png
+```
+---
+
+## 📦 Installation & Usage
+
+Since Tailwind is loaded via CDN, no installation is required.
+
+### **1. Clone the Repository**
+```bash
+git clone <https://github.com/Revou-FSSE-Oct25/milestone-1-WMIbrahim.git>
+```
+---
+### **2. Open the Website**
+Simply open the index.html file in your browser:
+```bash
+open index.html
+# or double-click the file
+```
