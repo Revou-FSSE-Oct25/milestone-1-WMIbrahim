@@ -87,3 +87,16 @@ button:hover{
     padding: 50px;
     text-align: center;
 }
+
+.home {
+    min-height: 100vh;
+    margin-top: 10vh;
+}
+
+section{
+    padding: 2rem 9% 2rem;
+}
+
+.about{
+    min-height: 100vh;
+}
