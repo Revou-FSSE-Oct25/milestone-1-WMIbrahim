@@ -39,3 +39,83 @@ section{
 .about{
     min-height: 100vh;
 }
+
+.autoup{
+    animation: text-appear-up both;
+    animation-timeline: view();
+}
+
+@keyframes text-appear-up {
+    from{
+        opacity: 0;
+        transform: translateY(2vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.autodown{
+    animation: text-appear-down both;
+    animation-timeline: view();
+}
+
+@keyframes text-appear-down {
+    from{
+        opacity: 0;
+        transform: translateY(-4vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.autoleft{
+    animation: text-appear-left both;
+    animation-timeline: view();
+}
+
+@keyframes text-appear-left {
+    from{
+        opacity: 0;
+        transform: translateX(4vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+.autoright{
+    animation: text-appear-right both;
+    animation-timeline: view();
+}
+
+@keyframes text-appear-right {
+    from{
+        opacity: 0;
+        transform: translateX(-4vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+.autoupf{
+    animation: text-appear-up both;
+    animation-timeline: view(50% 20%);
+}
+
+@keyframes text-appear-up {
+    from{
+        opacity: 0;
+        transform: translateY(2vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
